@@ -71,9 +71,11 @@ public class hiulit extends javax.swing.JFrame {
         setBackground(new java.awt.Color(255, 204, 204));
         setForeground(new java.awt.Color(255, 255, 255));
 
-        jPanel1.setBackground(new java.awt.Color(255, 204, 204));
+        jPanel1.setBackground(new java.awt.Color(102, 0, 102));
+        jPanel1.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jPanel1.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
+        jLabel1.setBackground(new java.awt.Color(0, 0, 0));
         jLabel1.setFont(new java.awt.Font("Times New Roman", 1, 36)); // NOI18N
         jLabel1.setText("Student Registration Form");
         jPanel1.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 20, -1, -1));
@@ -131,16 +133,16 @@ public class hiulit extends javax.swing.JFrame {
         jPanel1.add(jLabel14, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 550, -1, -1));
         jPanel1.add(jTextField1, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 90, 370, -1));
 
-        jTextField2.setForeground(new java.awt.Color(204, 204, 204));
+        jTextField2.setForeground(new java.awt.Color(153, 153, 153));
         jTextField2.setText("First Name");
         jPanel1.add(jTextField2, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 130, 160, -1));
 
-        jComboBox1.setForeground(new java.awt.Color(204, 204, 204));
+        jComboBox1.setForeground(new java.awt.Color(153, 153, 153));
         jComboBox1.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Last name" }));
         jPanel1.add(jComboBox1, new org.netbeans.lib.awtextra.AbsoluteConstraints(280, 130, 200, -1));
         jPanel1.add(jTextField3, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 170, 370, -1));
 
-        jComboBox2.setForeground(new java.awt.Color(204, 204, 204));
+        jComboBox2.setForeground(new java.awt.Color(153, 153, 153));
         jComboBox2.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Day" }));
         jComboBox2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -149,19 +151,17 @@ public class hiulit extends javax.swing.JFrame {
         });
         jPanel1.add(jComboBox2, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 210, 60, -1));
 
-        jComboBox3.setForeground(new java.awt.Color(204, 204, 204));
+        jComboBox3.setForeground(new java.awt.Color(153, 153, 153));
         jComboBox3.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Month" }));
         jPanel1.add(jComboBox3, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 210, -1, -1));
 
-        jComboBox4.setForeground(new java.awt.Color(204, 204, 204));
+        jComboBox4.setForeground(new java.awt.Color(153, 153, 153));
         jComboBox4.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Year" }));
         jPanel1.add(jComboBox4, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 210, 60, -1));
 
-        jComboBox5.setForeground(new java.awt.Color(204, 204, 204));
+        jComboBox5.setForeground(new java.awt.Color(153, 153, 153));
         jComboBox5.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "+63" }));
         jPanel1.add(jComboBox5, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 250, 60, -1));
-
-        jTextField4.setForeground(new java.awt.Color(204, 204, 204));
         jPanel1.add(jTextField4, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 250, 300, -1));
         jPanel1.add(jTextField5, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 290, 370, -1));
 
@@ -204,6 +204,7 @@ public class hiulit extends javax.swing.JFrame {
 
         jTextField7.setBackground(new java.awt.Color(204, 204, 204));
         jTextField7.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jTextField7.setForeground(new java.awt.Color(102, 102, 102));
         jTextField7.setText("Choose a File");
         jPanel1.add(jTextField7, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 470, -1, 20));
 
@@ -215,6 +216,7 @@ public class hiulit extends javax.swing.JFrame {
 
         jButton1.setBackground(new java.awt.Color(204, 204, 204));
         jButton1.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jButton1.setForeground(new java.awt.Color(102, 102, 102));
         jButton1.setText("Register");
         jButton1.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jPanel1.add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(230, 730, 120, -1));
